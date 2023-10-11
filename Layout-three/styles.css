@@ -1,0 +1,22 @@
+*{
+    margin:5;
+    padding:5;
+}
+
+body{
+    background-color:lightblue ;
+    color: white;
+    font-size:larger;
+}
+.main-container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 300px 300px 300px;
+    gap:20px 20px;
+}
+
+.item{
+    background-color:goldenrod;
+    
+}
